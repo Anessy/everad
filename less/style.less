@@ -1,34 +1,68 @@
 /*Обнуление*/
-*{padding:0;margin:0;border:0;}
-*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
-:focus,:active{outline:none;}
-a:focus,a:active{outline:none;}
-nav,footer,header,aside{display:block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
-input,button,textarea{font-family:inherit;}
-input::-ms-clear{display:none;}
-button{cursor:pointer;}
-button::-moz-focus-inner{padding:0;border:0;}
-a,a:visited{text-decoration:none;}
-a:hover{text-decoration:none;}
-ul li{list-style:none;}
-img{vertical-align:top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
-/*--------------------*/
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* весь контент на странице */
-.wrapper { 
-  min-height: 100%;
-  overflow: hidden; /* нет горизонтальной прокрутки */
-  display: flex;
-  flex-direction: column; /* Устанавливает основную ось. */
-}
-/* задаем ширину контентной части */
-.container {  
-  max-width: 1180px;
-  margin: 0px auto;
+.container {
+  }
+
+.main {
+  padding: 1.5rem 0rem;
+  background: url(../img/BGforHeader.jpg) center no-repeat;
+  background-size: cover;
+  header {
+    p{
+      font-size: 0.9rem;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 18px;
+      //margin-top: 0.5rem;
+      margin-left: -0.5rem;
+    }
+  }
+  .logo {
+    margin-top: -0.5rem;
+    img {
+      margin-left: -0.5rem;
+    }
+  }
+  .header-one{
+    margin-left: -3rem;
+    p{
+      margin-left: 0.5rem;
+    }
+  }
+  .header-two{
+    margin-left: -0.5rem;
+    p{
+      margin-left: 0.5rem;
+    }
+  }
+  .header-three {
+    margin-right: -0.5rem;
+    img{
+      margin-left: -1.5rem;
+    }
+    
+  }
+  .after-header{
+    padding: 1.8rem 0rem;
+    .text-block {
+      padding-right: 5rem;
+      margin-left: 2.5rem;
+
+      h3 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 2.5rem;
+      }
+      .big-bold {
+        font-size: 2.2rem;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        line-height: 2.5rem;
+      }
+    }
+  }
 }
