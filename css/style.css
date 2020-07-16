@@ -248,6 +248,14 @@ body {
   text-align: center;
   padding: 1rem 0rem 0 1rem;
 }
+.main .after-header .form .arrow {
+  position: absolute;
+  top: 10rem;
+  right: -2rem;
+}
+.main .after-header .form .arrow img {
+  width: 90%;
+}
 .for-picture {
   position: relative;
 }
@@ -376,6 +384,9 @@ body {
     margin-left: 0 !important;
     margin-right: -0.5rem !important;
   }
+  .form .arrow {
+    display: none;
+  }
   .form-car {
     left: 6rem !important;
     top: -1rem;
@@ -451,6 +462,9 @@ body {
     border-radius: 10px;
     padding: 2px 5px;
   }
+  .for-button button {
+    min-width: 12.2rem !important;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .logo .name {
@@ -470,6 +484,9 @@ body {
   }
   .about-pain .photos img {
     width: 100%;
+  }
+  .for-button button {
+    min-width: 13.5rem !important;
   }
 }
 @media (min-width: 1919px) and (max-width: 2046.98px) {

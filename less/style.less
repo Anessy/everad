@@ -255,6 +255,14 @@ body {
         text-align: center;
         padding: 1rem 0rem 0 1rem;
       }
+      .arrow {
+        position: absolute;
+        top: 10rem;
+        right: -2rem;
+        img {
+          width: 90%;
+        }
+      }
     }
   }
 }
@@ -394,6 +402,9 @@ body {
   .form {
     margin-left: 0 !important;
     margin-right: -0.5rem !important;
+    .arrow {
+      display: none;
+    }
   }
   .form-car{
     left: 6rem !important;
@@ -485,6 +496,11 @@ body {
     border-radius: 10px;
     padding: 2px 5px;
   }
+  .for-button {
+    button {
+      min-width: 12.2rem !important;
+    }
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -514,6 +530,11 @@ body {
       img {
         width: 100%;
       }
+    }
+  }
+  .for-button {
+    button {
+      min-width: 13.5rem !important;
     }
   }
 }
