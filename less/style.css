@@ -257,8 +257,8 @@ body {
 }
 .inCenter {
   margin-top: 6rem;
-  margin-left: 2rem;
-  min-width: 100%;
+  padding-left: 2rem;
+  width: 100%;
   text-align: center;
 }
 .about-pain {
@@ -301,6 +301,7 @@ body {
 .statistics .forma {
   position: absolute;
   background-color: white;
+  padding: 0 2rem;
   top: -1.5rem;
   left: 50%;
   transform: translate(-50%, 0);
@@ -317,4 +318,165 @@ body {
 .statistics .statistics-text .bold {
   font-weight: 600;
   color: black;
+}
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .main {
+    overflow-x: hidden;
+  }
+  .main {
+    background: url(../img/BGforHeader.jpg) 40% 40% no-repeat;
+    background-size: cover;
+  }
+  .logo .name {
+    margin-left: 2rem;
+  }
+  .main .header-one {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  .main .header-two {
+    margin-left: 0rem;
+  }
+  .main .header-three {
+    margin-right: 0rem;
+  }
+  .main .header-three img {
+    margin-left: 0rem;
+  }
+  .main header p {
+    margin-left: 0.5rem;
+  }
+  .main .after-header .text-block {
+    margin-right: 0rem !important;
+    margin-left: -1rem !important;
+  }
+  .for-picture .picture {
+    top: 2rem;
+    left: 2rem;
+  }
+  .for-picture .picture img {
+    width: 100%;
+  }
+  .inCenter {
+    margin-top: 15rem;
+  }
+  .textAbout {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 2px 5px;
+  }
+  .plusMinus {
+    margin-bottom: 2rem;
+    margin-right: 2rem !important ;
+    margin-left: -1rem !important;
+  }
+  .form {
+    margin-left: 0 !important;
+    margin-right: -0.5rem !important;
+  }
+  .form-car {
+    left: 6rem !important;
+    top: -1rem;
+    background-color: #f3f9ff;
+    padding: 0.5rem 0.6rem 0 0.6rem !important;
+    border: 6px solid #a8ca3f;
+    border-radius: 10px;
+  }
+  .for-button button {
+    min-width: 14.5rem !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main {
+    background: url(../img/BGforHeader.jpg) 40% 40% no-repeat;
+    background-size: cover;
+  }
+  .logo .name {
+    margin-left: 2rem;
+  }
+  .for-picture .picture {
+    top: 2rem;
+    left: 2rem;
+  }
+  .for-picture .picture img {
+    width: 100%;
+  }
+  .inCenter {
+    margin-top: 23rem;
+  }
+  .textAbout {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 2px 5px;
+  }
+  .main .after-header .text-block {
+    margin-right: 0rem !important ;
+    margin-left: 1.5rem !important;
+  }
+  .plusMinus {
+    margin-bottom: 2rem;
+    margin-right: 2rem !important ;
+    margin-left: 1.5rem !important;
+  }
+  .form-car {
+    left: 8.5rem !important;
+    top: -1rem;
+    background-color: #f3f9ff;
+    padding: 0.5rem 0.6rem 0 0.6rem !important;
+    border: 6px solid #a8ca3f;
+    border-radius: 10px;
+  }
+  .for-button button {
+    min-width: 15.9rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .logo {
+    margin-left: -1rem;
+  }
+  .logo .name {
+    margin-left: 0rem;
+  }
+  .for-picture .picture {
+    top: -2rem;
+    left: 2rem;
+  }
+  .inCenter {
+    margin-top: 23rem;
+  }
+  .textAbout {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 2px 5px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .logo .name {
+    margin-left: 2rem;
+  }
+  .for-picture .picture {
+    top: -3rem;
+  }
+  .inCenter {
+    margin-top: 20rem;
+    padding-left: 0rem;
+  }
+  .textAbout {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 2px 5px;
+  }
+  .about-pain .photos img {
+    width: 100%;
+  }
+}
+@media (min-width: 1919px) and (max-width: 2046.98px) {
+  .for-picture .picture {
+    top: -14rem;
+  }
+}
+@media (min-width: 2047px) and (max-width: 2199.98px) {
+  .for-picture .picture {
+    top: -15rem;
+  }
 }
